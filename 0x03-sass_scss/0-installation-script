@@ -1,0 +1,22 @@
+#!/bin/bash
+# Script to install Sass on macOS using Node.js and VSCode terminal
+
+# Step 1: Install Node.js (manually from https://nodejs.org/)
+
+# Step 2: Check if Node.js and npm are installed
+
+echo "Checking Node.js and npm versions..."
+node -v
+npm -v
+
+# Step 3: Install Sass globally using npm
+
+echo "Installing Sass globally..."
+npm install -g sass
+
+# Step 4: Verify Sass installation
+
+echo "Verifying Sass installation..."
+sass --version
+
+echo "Sass installation complete!"
